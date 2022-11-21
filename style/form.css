@@ -1,0 +1,79 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #451736;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(64, 0, 107, 0.6078431373);
+  width: 450px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 0.5rem;
+  min-height: 500px;
+}
+.container form, .container .Container__criar {
+  width: 100%;
+  display: inherit;
+  align-items: center;
+  flex-direction: column;
+}
+.container .input__text {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0.1px 0.1px 5px 2px rgba(0, 0, 0, 0.471);
+  width: 80%;
+  min-width: 200px;
+}
+.container .criar__tarefa {
+  display: block;
+  width: 50%;
+  background-color: #53037d;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  margin-top: 0.6rem;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.container .criar__tarefa:hover {
+  box-shadow: 0.2px 0.2px 5px 5px rgb(255, 255, 255);
+}
+
+.lista__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  min-height: 300px;
+  width: 100%;
+  background-color: #40006b;
+  padding: 0.5rem;
+}
+
+.lista {
+  display: flex;
+  background-color: white;
+  width: 95%;
+  padding: 0.5rem;
+  font-weight: bold;
+  color: rgba(64, 0, 107, 0.768627451);
+  justify-content: space-between;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+.lista span {
+  color: black;
+  cursor: pointer;
+}/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,82 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #451736;
+    height: 100vh;
+};
+
+.container{
+    background-color:#40006b9b;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+    align-items:center;
+    height: auto;
+    padding: .5rem;
+    min-height: 500px;
+    form, .Container__criar{
+        width: 100%;
+        display: inherit;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input__text { 
+        padding: .5rem;
+        border: none;
+        border-radius: 15px;
+        box-shadow: .1px .1px 5px 2px rgba(0, 0, 0, 0.471);
+        width: 80%;
+        min-width: 200px;
+    }
+
+ 
+    .criar__tarefa {
+        display: block;
+        width: 50%;
+        background-color:#53037d;
+        border:none;
+        color:white;
+        padding: .5rem;
+        margin-top: .6rem;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 1.1rem;
+        cursor:pointer;
+        &:hover {
+            box-shadow: .2px .2px 5px 5px  rgb(255, 255, 255);
+        }
+    }
+ 
+};
+   .lista__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        min-height: 300px;
+        width:100%;
+        background-color:#40006b;
+        
+        padding: .5rem;
+        
+    }.lista{
+        display: flex;
+        background-color:white;
+        width: 95%;
+        padding: .5rem;
+        font-weight: bold;
+        color:#40006bc4;
+        justify-content: space-between;
+        border-radius: 15px;
+        font-size: 1.1rem;
+        margin: 5px 0;
+        span {
+            color:black;;
+            cursor:pointer;
+        }
+    }
+  
